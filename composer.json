@@ -1,0 +1,32 @@
+{
+  "name": "codebridge/cblogger",
+  "description": "Simple multichannel logger for Laravel",
+  "keywords": ["logging"],
+  "license": "MIT",
+  "homepage": "https://gitlab.com/Codebridge/Packages/CBLogger",
+  "version": "1.2.2",
+  "authors": [
+    {
+      "name": "Kevin Hoogerwerf",
+      "email": "kevin@codebridge.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "monolog/monolog": "^1.22",
+    "illuminate/support": "^5.3",
+    "illuminate/database": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeBridge\\CBLogger\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CodeBridge\\CBLogger\\Provider\\CBLoggerServiceProvider"
+      ]
+    }
+  }
+}
