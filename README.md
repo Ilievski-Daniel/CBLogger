@@ -4,7 +4,7 @@
 ````json
   "repositories": [{
       "type": "composer",
-      "url": "https://codebridge:1$packages@packages.codebridge.nl"
+      "url": "https://github.com/Ilievski-Daniel/CBLogger"
   }],
 ````
 
